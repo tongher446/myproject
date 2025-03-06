@@ -1,0 +1,11 @@
+body{
+justify-content: center;
+align-items: center;
+justify-items: center;
+height: 100vh;
+border: .2rem solid blue;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+}

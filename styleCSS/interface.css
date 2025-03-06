@@ -1,0 +1,161 @@
+@media (max-width: 600px) {
+ html body{
+        background-image: url(/images-background/images.jpg);
+    }
+    .bt-login{
+    background-color: rgb(33, 18, 241);
+    color: #ffffff;
+}
+}
+
+ body {
+     background-image: url('/images-background/IMG_PITU_20230821_121853.jpg');
+ 
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     margin: 0;
+     height: 100vh;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+ }
+
+ .container {
+     align-items: center;
+     justify-content: center;
+     border: 1px rgb(255, 255, 255) solid;
+     border-radius: 1rem;
+     width: 15rem;
+     height: 20rem;
+     font-family: 'Times New Roman';
+ }
+
+ .login {
+     justify-items: center;
+     height: 2.3rem;
+     color: #ffffff;
+     font-family: 'Times New Roman';
+
+ }
+
+ .user-name {
+     outline: none;
+     border: none;
+     height: 1rem;
+     margin: 1rem;
+     background-color: rgb(188, 190, 216);
+     border-bottom: 2px solid #ffffff;
+     color: #ffffff;
+     font-family: 'Times New Roman';
+ }
+
+ .password {
+     outline: none;
+     border: none;
+     height: 1rem;
+     margin: 1rem;
+     background-color: rgb(188, 190, 216);
+     border-bottom: solid 2px #ffffff;
+     color: #ffffff;
+     font-family: 'Times New Roman';
+
+ }
+
+ ::placeholder {
+     color: #ffffff;
+ }
+
+ .checkboxbt {
+     margin: 1rem;
+     width: 12.1rem;
+     justify-content: center;
+     justify-items: center;
+     /* border: #ffffff solid 10px; */
+     display: flex;
+     align-items: center;
+     font-family: 'Times New Roman';
+
+ }
+
+ .checkbox {
+     margin: 0 0 0 1rem;
+     align-items: center;
+     color: #ffffff;
+     font-size: 2rem;
+     font-family: 'Times New Roman';
+ }
+
+ .textCheckbox {
+     margin: 0;
+     font-size: .9rem;
+     color: #ffffff;
+     font-family: 'Times New Roman';
+ }
+
+ .resetpassword {
+     margin: 0 0 0 .8rem;
+     font-size: .8rem;
+     color: #ffffff;
+     font-weight: bold;
+     text-decoration: none;
+     font-family: 'Times New Roman';
+ }
+
+ .resetpassword:hover {
+     text-decoration: underline;
+     color: rgb(255, 0, 0);
+ }
+
+ .bt-login {
+     border: none;
+     border-radius: 9rem;
+     height: 2rem;
+     width: 11.1rem;
+     font-family: arial;
+     font-size: .8rem;
+     font-weight: bold;
+     font-family: 'Times New Roman';
+     cursor: pointer;
+ }
+
+ .bt-login:hover {
+     opacity: 1;
+     transition: .2s;
+     background-color: rgb(44, 74, 240);
+     color: #ffffff;
+ }
+
+ .bt-login:active {
+     opacity: 1;
+     transition: 1s;
+     background-color: rgb(99, 231, 231);
+     color: rgb(0, 0, 0);
+ }
+
+ .register {
+     /* border: #ffffff solid; */
+     padding: 0 1.4rem 0 1.8rem;
+     align-items: center;
+     display: flex;
+     font-size: 13.6px;
+     color: #ffffff;
+     font-family: 'Times New Roman';
+ }
+
+ .registerlink {
+     margin: .3rem;
+     padding: 0;
+     display: flex;
+     text-decoration: none;
+     font-weight: bold;
+     color: #ffffff;
+     font-family: 'Times New Roman';
+     text-decoration: none;
+ }
+
+ .registerlink:hover {
+     text-decoration: underline;
+     color: rgb(255, 0, 0);
+ }
