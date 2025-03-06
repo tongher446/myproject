@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
  html body{
         background-image: url(/images-background/images.jpg);
     }
@@ -6,7 +6,7 @@
     background-color: rgb(33, 18, 241);
     color: #ffffff;
 }
-}
+}*/
 
  body {
      background-image: url('/images-background/IMG_PITU_20230821_121853.jpg');
